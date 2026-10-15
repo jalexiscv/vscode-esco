@@ -1,0 +1,8 @@
+{
+  "language": "spanish",
+  "permissions": {
+    "allow": [
+      "Bash(git push:*)"
+    ]
+  }
+}
