@@ -2,3 +2,7 @@
 .gitignore
 scripts/**
 **/*.vsix
+glosario/**
+documents/**
+CLAUDE.md
+.claude/**
