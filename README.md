@@ -5,7 +5,7 @@ Este paquete adapta la interfaz de Visual Studio Code al español de Colombia (`
 ## Uso
 
 1. Instala la extensión.
-2. Abre la paleta de comandos con `Ctrl+Mayús+P` y ejecuta **Configure Display Language**.
+2. Abre la paleta de comandos con `Ctrl+Shift+P` y ejecuta **Configure Display Language**.
 3. Selecciona **español (Colombia)** y reinicia VS Code.
 
 
@@ -18,7 +18,7 @@ Este paquete adapta la interfaz de Visual Studio Code al español de Colombia (`
 
 ## 📜 Licencia
 
-Distribuido bajo la Licencia **MIT**. Ver [LICENSE](LICENSE) para más información.
+Distribuido bajo la Licencia **MIT**. Ver [LICENSE.md](LICENSE.md) para más información.
 
 > La licencia MIT te permite usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del software sin restricciones, siempre que se incluya el aviso de copyright.
 

@@ -3,8 +3,16 @@
 	"displayName": "Spanish (Colombia) Language Pack for Visual Studio Code",
 	"description": "Paquete de idioma español de Colombia (es-CO) para Visual Studio Code",
 	"version": "1.131.0",
-	"publisher": "PENDIENTE",
+	"publisher": "jalexiscv",
 	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jalexiscv/vscode-esco.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jalexiscv/vscode-esco/issues"
+	},
+	"homepage": "https://github.com/jalexiscv/vscode-esco#readme",
 	"engines": {
 		"vscode": "^1.131.0"
 	},

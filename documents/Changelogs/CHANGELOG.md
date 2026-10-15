@@ -2,6 +2,7 @@
 
 | #  | Fecha      | Descripción breve                                         | Detalle                                                           |
 |----|------------|-----------------------------------------------------------|-------------------------------------------------------------------|
+| 5  | 2026-10-15 | Release 1.131.0: publisher, metadatos y `.vsix`           | [Ver detalle](2026-10-15_release_1_131_0.md)                      |
 | 4  | 2026-10-15 | Adaptación de los protocolos al proyecto y `CLAUDE.md`    | [Ver detalle](2026-10-15_docs_adaptacion_protocolos.md)           |
 | 3  | 2026-10-15 | Traducción de 2,671 cadenas que la base dejó en inglés    | [Ver detalle](2026-10-15_feat_traduccion_cadenas_ingles.md)       |
 | 2  | 2026-10-15 | Glosario de adaptación es-CO aplicado a 176 cadenas       | [Ver detalle](2026-10-15_feat_glosario_esco.md)                   |
