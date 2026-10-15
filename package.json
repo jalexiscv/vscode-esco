@@ -408,5 +408,9 @@
 				]
 			}
 		]
+	},
+	"scripts": {
+		"glosario": "node scripts/aplicar-glosario.js",
+		"glosario:revisar": "node scripts/aplicar-glosario.js --revisar"
 	}
 }

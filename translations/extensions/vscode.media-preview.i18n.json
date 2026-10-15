@@ -19,7 +19,7 @@
 			"Select zoom level": "Seleccionar nivel de zoom",
 			"The audio file is stored with Git LFS and is not available for preview.": "El archivo de audio se almacena con Git LFS y no está disponible para la versión preliminar.",
 			"The image is stored with Git LFS and is not available for preview.": "La imagen se almacena con Git LFS y no está disponible para la versión preliminar.",
-			"The video file is stored with Git LFS and is not available for preview.": "El archivo de vídeo se almacena con Git LFS y no está disponible para la versión preliminar.",
+			"The video file is stored with Git LFS and is not available for preview.": "El archivo de video se almacena con Git LFS y no está disponible para la versión preliminar.",
 			"Whole Image": "Imagen completa",
 			"{0}B": "{0} B",
 			"{0}GB": "{0} GB",
@@ -35,11 +35,11 @@
 			"command.zoomOut": "Alejar",
 			"customEditor.audioPreview.displayName": "Vista previa de audio",
 			"customEditor.imagePreview.displayName": "Vista previa de la imagen",
-			"customEditor.videoPreview.displayName": "Vista previa del vídeo",
-			"description": "Proporciona vistas previas integradas de VS Code para imágenes, audio y vídeo",
+			"customEditor.videoPreview.displayName": "Vista previa del video",
+			"description": "Proporciona vistas previas integradas de VS Code para imágenes, audio y video",
 			"displayName": "Vista previa de medios",
-			"videoPreviewerAutoPlay": "Empiece a reproducir vídeos al silenciar automáticamente.",
-			"videoPreviewerLoop": "Repita los vídeos de nuevo automáticamente."
+			"videoPreviewerAutoPlay": "Empiece a reproducir videos al silenciar automáticamente.",
+			"videoPreviewerLoop": "Repita los videos de nuevo automáticamente."
 		}
 	}
 }

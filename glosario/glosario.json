@@ -1,0 +1,378 @@
+{
+	"descripcion": "Glosario de adaptación del español de VS Code al español de Colombia (es-CO). Lo aplica scripts/aplicar-glosario.js.",
+	"tratamiento": "usted",
+	"reglas": [
+		{
+			"categoria": "vocabulario",
+			"buscar": "ficheros",
+			"reemplazar": "archivos",
+			"nota": "En Colombia se dice «archivo»; «fichero» es propio de España."
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "fichero",
+			"reemplazar": "archivo",
+			"nota": "En Colombia se dice «archivo»; «fichero» es propio de España."
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "ratones",
+			"reemplazar": "mouse",
+			"nota": "En Colombia se dice «mouse» (el pack ya lo usa en 60 cadenas)."
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "ratón",
+			"reemplazar": "mouse",
+			"nota": "En Colombia se dice «mouse» (el pack ya lo usa en 60 cadenas)."
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "vídeos",
+			"reemplazar": "videos",
+			"nota": "En América se escribe «video», sin tilde."
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "vídeo",
+			"reemplazar": "video",
+			"nota": "En América se escribe «video», sin tilde."
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "fichas",
+			"reemplazar": "pestañas",
+			"nota": "Pestañas del editor: el pack usa «pestaña» en 268 cadenas y «ficha» en 17.",
+			"excluirSi": "fragmento de código"
+		},
+		{
+			"categoria": "vocabulario",
+			"buscar": "ficha",
+			"reemplazar": "pestaña",
+			"nota": "Pestañas del editor: el pack usa «pestaña» en 268 cadenas y «ficha» en 17.",
+			"excluirSi": "fragmento de código"
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "Pulse un chip",
+			"reemplazar": "Toque un chip",
+			"nota": "En pantallas táctiles se «toca», no se «presiona»."
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "pulse",
+			"reemplazar": "presione",
+			"nota": "En Colombia se «presiona» u «oprime» una tecla; «pulsar» es de España."
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "pulsar",
+			"reemplazar": "presionar",
+			"nota": "En Colombia se «presiona» u «oprime» una tecla; «pulsar» es de España."
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "pulsando",
+			"reemplazar": "presionando",
+			"nota": "En Colombia se «presiona» u «oprime» una tecla; «pulsar» es de España."
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "pulsad([oa]s?)",
+			"reemplazar": "presionad$1",
+			"nota": "En Colombia se «presiona» u «oprime» una tecla; «pulsar» es de España."
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "mayús\\s*\\+\\s*tabulaci[oó]n",
+			"reemplazar": "Shift+Tab",
+			"nota": "Nombre de tecla usado en Colombia.",
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "Mayús",
+			"reemplazar": "Shift",
+			"nota": "En Colombia la tecla se llama «Shift». Afecta también a los atajos mostrados en menús (Ctrl+Shift+P).",
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "Tabulador",
+			"reemplazar": "Tab",
+			"nota": "En Colombia la tecla se llama «Tab».",
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "Intro",
+			"reemplazar": "Enter",
+			"nota": "En Colombia la tecla se llama «Enter».",
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "ENTRAR",
+			"reemplazar": "ENTER",
+			"nota": "Tecla Enter escrita en mayúsculas.",
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "(?<=\\+\\s?)Entrar",
+			"reemplazar": "Enter",
+			"nota": "Tecla Enter dentro de un atajo (Shift+Enter, Alt+Enter).",
+			"palabra": false,
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "([\"'“])Entrar([\"'”])",
+			"reemplazar": "$1Enter$2",
+			"nota": "Tecla Enter entre comillas.",
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "(?<=(?:[Pp]resion(?:e|ar|a|ando)|[Uu]se|[Uu]sar|[Uu]tilice|teclas?|\\bo|\\bni|\\bSi|\\by) )Entrar",
+			"reemplazar": "Enter",
+			"nota": "Tecla Enter después de «presione», «use», «o», etc. El verbo «entrar» y el comando de depuración «Entrar» (Step Into) no se tocan.",
+			"palabra": false,
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "(?<=[Uu]se )entrar",
+			"reemplazar": "Enter",
+			"nota": "Tecla Enter en minúscula después de «use».",
+			"palabra": false,
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "\\(Entrar\\)",
+			"reemplazar": "(Enter)",
+			"nota": "Tecla Enter entre paréntesis.",
+			"palabra": false,
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "teclas",
+			"buscar": "^- Entrar(?=:| \\()",
+			"reemplazar": "- Enter",
+			"nota": "Tecla Enter al inicio de una lista de atajos.",
+			"palabra": false,
+			"distinguirMayusculas": true,
+			"mantenerMayusculas": false
+		},
+		{
+			"categoria": "correccion",
+			"buscar": "\\(comando:",
+			"reemplazar": "(command:",
+			"nota": "El esquema de vínculo «command:» no se traduce; con «comando:» el vínculo deja de funcionar.",
+			"palabra": false,
+			"mantenerMayusculas": false
+		}
+	],
+	"cadenas": [
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.describeTheOutcome",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Describe el resultado que deseas",
+			"nuevo": "Describa el resultado que desea"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.describeWhatYouWantToBuild",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Describe lo que quieres crear",
+			"nuevo": "Describa lo que quiere crear"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.describeYourMission",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Describe tu misión",
+			"nuevo": "Describa su misión"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.pitchYourIdea",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Lanza tu idea",
+			"nuevo": "Presente su idea"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.whatAreYouBuilding",
+			"nota": "Tuteo cambiado a usted",
+			"original": "¿Qué estás creando?",
+			"nuevo": "¿Qué está creando?"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.whatFeatureAreYouDreamingUp",
+			"nota": "Tuteo cambiado a usted",
+			"original": "¿Qué característica te gustaría crear?",
+			"nuevo": "¿Qué característica le gustaría crear?"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.whatProblemAreYouSolving",
+			"nota": "Tuteo cambiado a usted",
+			"original": "¿Qué problema estás solucionando?",
+			"nuevo": "¿Qué problema está solucionando?"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.whatWouldYouLikeToAutomate",
+			"nota": "Tuteo cambiado a usted",
+			"original": "¿Qué te gustaría automatizar?",
+			"nuevo": "¿Qué le gustaría automatizar?"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/chat/browser/newChatInput",
+			"clave": "sessionsChatInput.placeholder.whatsYourNextMilestone",
+			"nota": "Tuteo cambiado a usted",
+			"original": "¿Cuál es tu próximo hito?",
+			"nuevo": "¿Cuál es su próximo hito?"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/welcome/browser/sessionsWalkthrough",
+			"clave": "walkthrough.theme.subtitle",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Elige un tema de color para que sea tuyo. Siempre puedes cambiarlo más adelante.",
+			"nuevo": "Elija un tema de color a su gusto. Siempre puede cambiarlo más adelante."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/welcome/browser/sessionsWalkthrough",
+			"clave": "walkthrough.welcome.subtitle",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Tu aplicación basada en IA en la que los agentes exploran, crean y perfeccionan contigo.",
+			"nuevo": "Su aplicación basada en IA en la que los agentes exploran, crean y perfeccionan con usted."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/sessions/contrib/welcome/browser/sessionsWalkthrough",
+			"clave": "walkthrough.welcome.title",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Te damos la bienvenida a {0}",
+			"nuevo": "Le damos la bienvenida a {0}"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/api/browser/mainThreadExtensionService",
+			"clave": "disabledDep",
+			"nota": "Tuteo cambiado a usted",
+			"original": "No se puede activar la extensión '{0}' porque depende de la '{1}' extensión, que está deshabilitada. ¿Quieres activar la extensión y volver a cargar la ventana?",
+			"nuevo": "No se puede activar la extensión '{0}' porque depende de la '{1}' extensión, que está deshabilitada. ¿Quiere activar la extensión y volver a cargar la ventana?"
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/browserView/electron-browser/tools/runPlaywrightCodeTool",
+			"clave": "browser.runCode.confirmDisclaimer",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Asegúrate de confiar en el código antes de continuar.",
+			"nuevo": "Asegúrese de confiar en el código antes de continuar."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/debug/browser/replAccessibilityHelp",
+			"clave": "repl.distinguishConsole",
+			"nota": "Tuteo cambiado a usted",
+			"original": "La entrada de la consola está en la parte inferior, después de todos los mensajes mostrados. Ahí escribe y presiona Entrar para evaluar expresiones durante la depuración.",
+			"nuevo": "La entrada de la consola está en la parte inferior, después de todos los mensajes mostrados. Allí puede escribir y presionar Enter para evaluar expresiones durante la depuración."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/feedback/browser/feedback",
+			"clave": "label.sendASmile",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Envíanos un tweet con tus comentarios.",
+			"nuevo": "Envíenos un tweet con sus comentarios."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/remoteTunnel/electron-browser/remoteTunnel.contribution",
+			"clave": "progress.turnOn.final",
+			"nota": "Tuteo cambiado a usted; además los vínculos (comando:) traducidos por error vuelven a (command:)",
+			"original": "Ahora puedes acceder a esta máquina desde cualquier lugar a través del túnel seguro [{0}](comando:{4}). Para conectarte a través de un equipo diferente, usa el vínculo [{1}]({2}) generado o usa la extensión [{6}]({7}) en el escritorio o la web. Puedes [configurar](comando:{3}) o [desactivar](comando:{5}) este acceso a través del menú cuentas de VS Code.",
+			"nuevo": "Ahora puede acceder a esta máquina desde cualquier lugar a través del túnel seguro [{0}](command:{4}). Para conectarse desde otro equipo, use el vínculo [{1}]({2}) generado o use la extensión [{6}]({7}) en el escritorio o la web. Puede [configurar](command:{3}) o [desactivar](command:{5}) este acceso a través del menú Cuentas de VS Code."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/terminalContrib/find/browser/terminalFindAccessibilityHelp",
+			"clave": "terminal.keyEnter",
+			"nota": "Tuteo cambiado a usted",
+			"original": "- Entrar: pasa a la siguiente coincidencia mientras permaneces en la entrada Buscar.",
+			"nuevo": "- Enter: pasa a la siguiente coincidencia mientras permanece en la entrada Buscar."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/webview/browser/webviewFindAccessibilityHelp",
+			"clave": "webview.keyEnter",
+			"nota": "Tuteo cambiado a usted",
+			"original": "- Entrar: pasa a la siguiente coincidencia mientras permaneces en la entrada Buscar.",
+			"nuevo": "- Enter: pasa a la siguiente coincidencia mientras permanece en la entrada Buscar."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/workspace/browser/workspace.contribution",
+			"clave": "openLooseFileLearnMore",
+			"nota": "Tuteo cambiado a usted",
+			"original": "Si no quieres abrir archivos que no son de confianza, le recomendamos que los abra en modo restringido, ya que los archivos pueden ser maliciosos. Consulte [nuestros documentos](https://aka.ms/vscode-workspace-trust) para obtener más información.",
+			"nuevo": "Si no quiere abrir archivos que no son de confianza, le recomendamos que los abra en modo restringido, ya que los archivos pueden ser maliciosos. Consulte [nuestros documentos](https://aka.ms/vscode-workspace-trust) para obtener más información."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/workspace/browser/workspaceTrustEditor",
+			"clave": "invalidTrust",
+			"nota": "Tuteo cambiado a usted; «fiarse» por «confiar»",
+			"original": "No puedes fiarte de las carpetas individuales de un repositorio.",
+			"nuevo": "No puede confiar en las carpetas individuales de un repositorio."
+		},
+		{
+			"archivo": "main.i18n.json",
+			"modulo": "vs/workbench/contrib/workspace/browser/workspaceTrustEditor",
+			"clave": "trustOrg",
+			"nota": "Tuteo cambiado a usted; «fiarse» por «confiar»",
+			"original": "Te fiarás de todos los repositorios y las bifurcaciones de \"{0}\" en {1}.",
+			"nuevo": "Confiará en todos los repositorios y las bifurcaciones de \"{0}\" en {1}."
+		},
+		{
+			"archivo": "extensions/vscode.git.i18n.json",
+			"modulo": "bundle",
+			"clave": "Can't push refs to remote. Try running \"Pull\" first to integrate your changes.",
+			"nota": "Tuteo cambiado a usted",
+			"original": "No se pueden enviar referencias al remoto. Intenta ejecutar 'Pull' primero para integrar tus cambios.",
+			"nuevo": "No se pueden enviar referencias al remoto. Intente ejecutar 'Pull' primero para integrar sus cambios."
+		},
+		{
+			"archivo": "extensions/vscode.git.i18n.json",
+			"modulo": "bundle",
+			"clave": "Would you like {0} to [periodically run \"git fetch\"]({1})?",
+			"nota": "Tuteo cambiado a usted",
+			"original": "¿Te gustaría que {0} [ejecute la “recuperación de cambios de Git” periódicamente]({1})?",
+			"nuevo": "¿Le gustaría que {0} [ejecute la “recuperación de cambios de Git” periódicamente]({1})?"
+		}
+	]
+}
