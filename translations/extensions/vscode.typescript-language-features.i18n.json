@@ -304,7 +304,7 @@
 			"configuration.updateImportsOnPaste.enabled.unifiedDeprecationMessage": "Este valor está en desuso. Use `#js/ts.updateImportsOnPaste.enabled#` en su lugar.",
 			"configuration.validate.enable": "Habilite o deshabilite la validación de JavaScript y TypeScript.",
 			"configuration.validate.enable.unifiedDeprecationMessage": "Este valor está en desuso. Use `#js/ts.validate.enabled#` en su lugar.",
-			"configuration.validation": "Validation",
+			"configuration.validation": "Validación",
 			"configuration.workspaceSymbols.excludeLibrarySymbols.unifiedDeprecationMessage": "Este valor está en desuso. Use `#js/ts.workspaceSymbols.excludeLibrarySymbols#` en su lugar.",
 			"configuration.workspaceSymbols.scope.unifiedDeprecationMessage": "Este valor está en desuso. Use `#js/ts.workspaceSymbols.scope#` en su lugar.",
 			"description": "Proporciona soporte de lenguaje enriquecido para JavaScript y TypeScript.",
