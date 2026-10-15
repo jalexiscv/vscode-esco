@@ -2,6 +2,7 @@
 
 | #  | Fecha      | Descripción breve                                         | Detalle                                                           |
 |----|------------|-----------------------------------------------------------|-------------------------------------------------------------------|
+| 6  | 2026-10-15 | Sección "Sobre este paquete" en el README                 | [Ver detalle](2026-10-15_docs_readme_sobre_el_paquete.md)         |
 | 5  | 2026-10-15 | Release 1.131.0: publisher, metadatos y `.vsix`           | [Ver detalle](2026-10-15_release_1_131_0.md)                      |
 | 4  | 2026-10-15 | Adaptación de los protocolos al proyecto y `CLAUDE.md`    | [Ver detalle](2026-10-15_docs_adaptacion_protocolos.md)           |
 | 3  | 2026-10-15 | Traducción de 2,671 cadenas que la base dejó en inglés    | [Ver detalle](2026-10-15_feat_traduccion_cadenas_ingles.md)       |
